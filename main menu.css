@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #181c28;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #22263a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffd600;
+}
+
+.hero {
+  background: linear-gradient(90deg, #22263a 60%, #3d4162 100%);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+#exploreBtn {
+  background: #ffd600;
+  color: #22263a;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#exploreBtn:hover {
+  background: #ffb300;
+}
+
+.featured {
+  padding: 30px 10vw;
+}
+
+.featured h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.games-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.game-card {
+  background: #292e43;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px #0002;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #22263a;
+}
+
+.game-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.game-card p {
+  font-size: 0.95rem;
+  color: #ffd600;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #22263a;
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 0.9rem;
+}
